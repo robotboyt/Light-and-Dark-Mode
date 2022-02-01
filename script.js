@@ -22,7 +22,7 @@ function toogleDarkLightMode(isDark) {
     toggleIcon.children[0].textContent = isDark ? 'Dark Mode' : 'Light Mode'
     isDark ? toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon') :
         toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun')
-    isDark ? imageMode('dark') : imageMode('dark')
+    isDark ? imageMode('light') : imageMode('dark')
 }
 
 // Switch Theme Dynamically
